@@ -1,0 +1,19 @@
+{
+  "name": "vue-filter",
+  "version": "1.0.0",
+  "description": "a vue directive to filter input",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RebuildYan/vue-filter.git"
+  },
+  "author": "heyan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RebuildYan/vue-filter/issues"
+  },
+  "homepage": "https://github.com/RebuildYan/vue-filter#readme"
+}
