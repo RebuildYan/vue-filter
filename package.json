@@ -1,5 +1,5 @@
 {
-  "name": "vue-filter",
+  "name": "vue-filter-input",
   "version": "1.0.0",
   "description": "a vue directive to filter input",
   "main": "index.js",
