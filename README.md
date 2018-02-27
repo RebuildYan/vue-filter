@@ -87,7 +87,7 @@ legalReg = [/^[0-9]{1,}$/, /^[a-zA-Z]{1,}$/]; // 输入内容为字母或者数�
 illegalReg = [/^[0-9]{1,}$/, /^[a-zA-Z]{1,}$/]; // 输入内容为字母或者数字时不允许输入
 ```
 
-#####legalKeyCode
+##### legalKeyCode
 
 字段名：`legalKeyCode`
 
@@ -101,7 +101,7 @@ illegalReg = [/^[0-9]{1,}$/, /^[a-zA-Z]{1,}$/]; // 输入内容为字母或者�
 legalKeyCode = [32, 8]; // 按键为spacebar或者backspace时，允许输入
 ```
 
-#####legalKeyCodeRange
+##### legalKeyCodeRange
 
 字段名：`legalKeyCodeRange`
 
@@ -124,7 +124,7 @@ legalKeyCode = [
 ]; // 按键keycode在1~20或者25~60时，允许输入
 ```
 
-#####illegalKeyCode
+##### illegalKeyCode
 
 字段名：`illegalKeyCode`
 
@@ -138,7 +138,7 @@ legalKeyCode = [
 illegalKeyCode = [32, 8]; // 按键为spacebar或者backspace时，不允许输入
 ```
 
-#####illegalKeyCodeRange
+##### illegalKeyCodeRange
 
 字段名：`illegalKeyCodeRange`
 
