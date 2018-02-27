@@ -60,7 +60,7 @@ function checkInput(input, strategy) {
     return true;
 }
 
-export function Filter(el, filterType, options = {}) {
+export function Filter(el, filterType, options) {
     this.oldText = '';
     this.position = 0;
     const cloneDefaultOpiton = JSON.parse(JSON.stringify(defaultOptions));
