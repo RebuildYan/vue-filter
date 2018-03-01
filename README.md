@@ -21,7 +21,7 @@ Vue.use(inputFilter);
 
 
 
-###step 2. Use it
+### step 2. Use it
 
 #### 使用预设类型
 
