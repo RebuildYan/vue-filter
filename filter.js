@@ -79,6 +79,7 @@ Filter.prototype.init = function () {
     };
     this.el.onfocus = () => {
         this.position = this.el.selectionStart;
+        this.oldText = this.el.value;
     };
 };
 
