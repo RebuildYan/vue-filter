@@ -112,7 +112,7 @@ legalKeyCode = [32, 8]; // 按键为spacebar或者backspace时，允许输入
 示例：
 
 ```javascript
-legalKeyCode = [
+legalKeyCodeRange = [
     {
         min: 1,
       	max: 20
@@ -149,7 +149,7 @@ illegalKeyCode = [32, 8]; // 按键为spacebar或者backspace时，不允许输�
 示例：
 
 ```javascript
-legalKeyCode = [
+illegalKeyCodeRange = [
     {
         min: 1,
       	max: 20
