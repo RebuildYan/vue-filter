@@ -1,10 +1,28 @@
 {
-  "name": "vue-filter-input",
-  "version": "1.0.4",
+  "name": "vue-input-filter",
+  "version": "1.1.0",
   "description": "a vue directive to filter input",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rm -rf ./_build && rollup -c",
+    "prepack": "npm run build",
+    "format": "prettier --write src/**/*"
+  },
+  "devDependencies": {
+    "@types/node": "9.4.7",
+    "prettier": "1.11.1",
+    "rollup": "0.56.5",
+    "rollup-plugin-typescript": "0.8.1",
+    "typescript": "2.7.2"
+  },
+  "prettier": {
+    "bracketSpacing": true,
+    "printWidth": 80,
+    "semi": true,
+    "singleQuote": true,
+    "tabWidth": 4,
+    "trailingComma": "all",
+    "useTabs": false
   },
   "repository": {
     "type": "git",

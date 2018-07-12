@@ -1,0 +1,35 @@
+{
+    "include": ["src/**/*"],
+    "compilerOptions": {
+        "outDir": "./_build/",
+        "module": "ES6",
+        "target": "ES5",
+        "lib": ["ES5", "DOM", "ES2015.Promise"],
+        "moduleResolution": "Node",
+        "noEmitOnError": true,
+        "declaration": true,
+        "sourceMap": false,
+
+        "allowJs": false,
+        "checkJs": false,
+
+        "strict": true,
+
+        "alwaysStrict": true,
+        "strictFunctionTypes": true,
+        "strictNullChecks": true,
+        "strictPropertyInitialization": true,
+
+        "allowUnreachableCode": false,
+        "allowUnusedLabels": false,
+
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "noUnusedLocals": false,
+        "noUnusedParameters": false,
+
+        "pretty": true
+    }
+}
