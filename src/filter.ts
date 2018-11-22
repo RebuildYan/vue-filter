@@ -18,6 +18,7 @@ export default class Filter {
 
     constructor(el: any, type: FilterType, options: StrategyOption) {
         this.filterStrategy = (<any>Object).assign(
+            {},
             defaultOptions,
             options || strategies[type]
         );
