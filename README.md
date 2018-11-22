@@ -1,4 +1,4 @@
-# vue-filter-input
+# vue-input-filter
 a vue directive to filter input
 
 > 轻量级限制用户输入自定义指令，可对中文输入法生效。
@@ -7,15 +7,15 @@ a vue directive to filter input
 
 ## How to use ?
 
-### step 1. Install vue-filter-input
+### step 1. Install vue-input-filter
 安装依赖包
 ```shell
-npm install vue-filter-input --save
+npm install vue-input-filter --save
 ```
 
 指令注册
 ```javascript
-import inputFilter from 'vue-filter-input';
+import inputFilter from 'vue-input-filter';
 Vue.use(inputFilter);
 ```
 
