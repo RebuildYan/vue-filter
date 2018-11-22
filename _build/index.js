@@ -53,7 +53,7 @@ var defaultOptions = {
 var Filter = /** @class */ (function () {
     function Filter(el, type, options) {
         var _this = this;
-        this.filterStrategy = Object.assign(defaultOptions, options || strategies[type]);
+        this.filterStrategy = Object.assign({}, defaultOptions, options || strategies[type]);
         this.oldText = '';
         this.position = 0;
         el.oninput = function () {

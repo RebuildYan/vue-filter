@@ -49,7 +49,7 @@ const number: StrategyOption = {
         {
             min: 96,
             max: 105,
-        },
+        }
     ],
 };
 

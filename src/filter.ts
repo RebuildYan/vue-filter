@@ -139,7 +139,7 @@ export default class Filter {
             }
         }
         const check = this.filterStrategy.oninput || this.checkInput;
-        const testResult = check.call(this, newInput);
+        const testResult = check.call(this, newInput) && check.call(this, text);
         if (testResult) {
             this.position = selectionStart;
             this.oldText = text;
